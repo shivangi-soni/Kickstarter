@@ -7,9 +7,11 @@ Before building the classification and regression models, the data was pre-proce
 After this data pre-processing and preliminary feature analysis, two feature selection techniques, Random Forest and Lasso were used to determine other insignificant features. It was observed that the important features selected by Lasso resulted in lower mean squared error (MSE) for regression model when compared to features selected by Random Forest. However, the opposite proved to be the case for classification, where the important features selected by Random Forest gave a higher accuracy as opposed to features selected by Lasso. It was observed for regression model that excluding features, such as deadline being on Friday and project’s creation day between 21st and 31st day of the month gave best results. For classification model, excluding features such as, robot category, flight category, deadline year of 2009, country Australia etc. gave a higher accuracy. 
 
 **Final Regression and Classification Model Selection**
+
 Different algorithms such as Random Forest, Gradient Boosting Tree, KNN, ANN, Logistic regression were tested to determine the best classification model to predict if the project will be successful or not. These same algorithms except logistic regression with some modifications (using regressor instead of classifier in Python) along with linear regression, Lasso, Ridge Regression were tested to determine the best regression model to predict the amount pledged in USD. The best MSE for regression model was obtained using Randon Forest while Gradient Boosting tree gave the highest accuracy score for the classification model. For both algorithms, the hyperparameters were tuned to build accurate models. 
 
 **Conclusion and Business Interpretation**
+
 Along with classification and regression models, clustering algorithm, K-Mean was used to gain business insights. Below are some of the conclusions that were derived from the models:
 Regression Model: The best model gave mean squared error of 17.3 Billion, which indicates that on an average the error between predicted and actual value of pledged amount can be around +/- 131,148 USD. This error value is an important factor to consider as the higher the error, the predicted pledged amount will be less accurate.
 

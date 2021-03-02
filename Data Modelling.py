@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sat Nov 21 14:04:26 2020
-INDIVIDUAL PROJECT
+INDIVIDUAL PROJECT - KICKSTARTER
 @author: Shivangi Soni 
-ID: 260994072
 """
 
 #Please run the Developing the Model and Grading Sections (from line 19 to 309)
